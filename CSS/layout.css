@@ -1,1 +1,128 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #dedede;
+}
+
+.topo {
+    width: 100%;
+    height: 60px;
+    background: #210d85;
+    position: absolute;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.menu {
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 20px;
+    right: 5%;
+}
+
+.corpo {
+    width: 1000px;
+    height: 800px;
+    background: #ffffff;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 400px;
+
+}
+
+.rodape {
+    width: 100%;
+    height: 60px;
+    background: #0f034f;
+    margin-top: 900px;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 20px;
+    color: #0f034f;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.texto{
+    margin-left: 20px;
+}
+
+.cursos {
+    background: #e2e2e2;
+    width: 960px;
+    height: 30px;
+    margin-left: 15px;
+    padding: 5px;
+
+}
+/* formatação da âncora */
+a:visited{
+    color: #ffffff;
+}
+a:link{
+    color:#ffffff; /* Cor do link */
+    text-decoration: none; /* Decoração do link Obs.: Sublinhado */
+}
+a:hover{
+    color: #7d7d7d;
+}
+a:active{
+    color: orange;
+}
+/* formatação da div do formulário */
+.formulario{
+    width: 300px;
+    height: 400px;
+    background: whitesmoke;
+    margin-left: 35%;
+    margin-top: 150px;
+
+}
+.formatacamposdetexto{
+    border-radius: 5px; /* Arredondar os cantos */
+    border-style: none; /* Retirei a borda */
+    background: #dfdfdf; /* cor de fundo */
+    height: 30px; /* altura */
+    width: 250px; /* largura */
+    font-size: 14px; /* tamanho da fonte */
+    
+}
+.formatatextarea{
+    border-radius: 5px; /* Arredondar os cantos */
+    border-style: none; /* Retirei a borda */
+    background: #dfdfdf; /* cor de fundo */
+    height: 80px; /* altura */
+    width: 250px; /* largura */
+    font-size: 14px; /* tamanho da fonte */
+
+}
+button{
+    width:90%;
+    background: #210d85;
+    color: #ffffff;
+    height: 30px;
+    border-radius: 7px;
+    border-style: none;
+}
+.alligncurso{
+    margin-left: 20px;
+    width: 950px;
+    background: whitesmoke;
+   
+}
+
 
